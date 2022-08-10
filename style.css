@@ -1,0 +1,63 @@
+
+.logo{
+    width: 200px;
+    height: auto;
+    padding-top: 10px;
+    border-radius: 10px
+}
+
+
+.missysky{
+    width: 300px;
+    height: auto;
+    margin-bottom: 5px;
+    border-radius: 10px;
+}
+
+.container{
+    background-color: #1F2937;
+    display: flex;
+    flex-direction: column;;
+}
+
+.main{
+    padding-left: 200px;
+    padding-right: 200px;
+}
+
+.menu{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+h1{
+    font-size: 48px;
+    font-weight: 900;
+    color: #F9FAF8;
+}
+
+.headers,
+.text{
+    font-size: 18px;
+    color: #E5E7EB;
+}
+
+
+.headers{
+    list-style: none;
+    display: flex;
+    gap: 18px;
+}
+
+.header{
+    display: flex;
+    justify-content: space-between;
+}
+
+.btn{
+        color: white;
+        background-color: #3882F6;
+        border-radius: 5px;
+        padding: 5px 12px;
+}
