@@ -77,7 +77,6 @@ h2{
 }
 
 .pack{
-
     display: flex;
     gap: 50px;
     align-items: center;
@@ -91,9 +90,27 @@ img{
     border-radius: 5px;
 }
 
-.subtext{
+.info{
     text-align: center;
     justify-content: center;
     color: #1F2937;
-    padding-top: 10px;
+}
+
+/* Troisieme partie */
+
+.quote{
+    display: flex;
+    background-color: #E5E7EB;
+    justify-content: center;
+}
+
+.phrase{
+    font-size: 36px;
+    color: #1F2937;
+    font-weight: thin;
+    font-style: italic;
+}
+
+.box{
+    padding: 150px;
 }
