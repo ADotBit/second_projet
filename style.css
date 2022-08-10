@@ -90,10 +90,11 @@ img{
     border-radius: 5px;
 }
 
-.info{
+.subtext{
     text-align: center;
-    justify-content: center;
     color: #1F2937;
+    padding-top: 10px;
+    padding-bottom: 50px;
 }
 
 /* Troisieme partie */
@@ -105,10 +106,16 @@ img{
 }
 
 .phrase{
+    font-family: "Muli", sans-serif;
     font-size: 36px;
     color: #1F2937;
-    font-weight: thin;
+    opacity: 0.5;
     font-style: italic;
+}
+
+span{
+    font-weight: bold;
+    font-size: 20px;
 }
 
 .box{
