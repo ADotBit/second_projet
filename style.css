@@ -10,8 +10,9 @@
 .missysky{
     width: 300px;
     height: auto;
-    margin-bottom: 5px;
+    margin-bottom: 10px;
     border-radius: 10px;
+
 }
 
 .container{
@@ -56,10 +57,12 @@ h1{
 }
 
 .btn{
-        color: white;
-        background-color: #3882F6;
-        border-radius: 5px;
-        padding: 5px 12px;
+    font-size: 15px;
+    color: white;
+    background-color: hsla(50, 33%, 25%, .75);
+    border-radius: 5px;
+    padding: 5px 12px;
+    border-color: #F9FAF8;
 }
 
 /* Deuxieme partie */
@@ -120,4 +123,43 @@ span{
 
 .box{
     padding: 150px;
+}
+
+/* Quatrieme et derniere bordel */
+
+.call{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin: 100px;
+}
+
+.boite{
+    display: flex;
+    flex: 1;
+    background-color: #3882F6;
+    border-radius: 30px;
+    padding: 50px;
+    color: #F9FAF8;
+    align-items: center;
+    justify-content: space-between;
+}
+
+span{
+    font-size: 24px;
+}
+
+.adv{
+    margin-left: 80px;
+}
+
+
+.btns{
+    background-color: #3882F6;
+    color: #F9FAF8;
+    font-size: 16px;
+    padding: 10px 50px;
+    margin-right: 80px;
+    border-radius: 10px;
+    border-color: #F9FAF8;
 }
